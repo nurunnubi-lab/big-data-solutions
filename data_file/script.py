@@ -20,7 +20,7 @@ job.init(args['JOB_NAME'], args)
 # Script generated for node AWS Glue Data Catalog
 AWSGlueDataCatalog_node = glueContext.create_dynamic_frame.from_catalog(
     database="org-report", 
-    table_name="tutorial_source_data_bucket", 
+    table_name="tutorial_source_data_bucket_2a62eb08", 
     transformation_ctx="AWSGlueDataCatalog_node"
     )
 
